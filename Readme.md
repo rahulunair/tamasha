@@ -31,7 +31,8 @@ This will fetch a joke from one of the categories:
 For example, 
 
 ```bash
-./target/release/tamasha --fetch
+tamasha --fetch
+
 Why did the Python programmer not respond to the foreign mails he got?
 
 Because his interpreter was busy collecting garbage.
@@ -43,7 +44,8 @@ To fetch a joke from a specific category, use `-c` or `--category` flag with `--
 For example,
 
 ```bash
-./target/release/tamasha -c programming --fetch
+tamasha -c programming --fetch
+
 Knock knock.
 Who's there?
 Recursion.
@@ -54,6 +56,8 @@ Knock knock.
 ### Cli options
 
 ```bash
+tamasha --help
+
 tamasha 0.1.0
 Fetch me a joke!
 
