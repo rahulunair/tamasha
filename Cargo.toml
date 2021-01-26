@@ -1,8 +1,15 @@
 [package]
 name = "tamasha"
 version = "0.1.0"
+description = "A cli to fetch jokes from JokeAPI."
+readme = "Readme.md"
+repository = "https://github.com/rahulunair/tamasha"
+homepage = "https://rahul.onl"
+license = "BSD-3-Clause"
 authors = ["unrahul <rahulunair@gmail.com>"]
 edition = "2018"
+keywords = ["cli", "jokes"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
