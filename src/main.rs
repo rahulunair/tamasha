@@ -17,8 +17,8 @@ fn main() {
             String::from(cli.format),
         );
         let joke = client_data.get_joke().unwrap();
-        println!("{}", joke.text);
+        println!("\n{}", joke.text);
     } else {
-        println!("use `tamasha --fetch` to fetch a joke");
+        println!("\nuse `tamasha --fetch` to fetch a joke");
     }
 }
