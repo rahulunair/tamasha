@@ -2,11 +2,10 @@
 
 A cli client to fetch jokes using JokeAPI in Rust.
 
-### Clone and Install
+###  Install
 
 ```bash
-git clone https://github.com/rahulunair/tamasha.git
-cd tamasha && cargo build --release
+cargo install tamasha
 ```
 
 The binary will be in `./target/release/`
