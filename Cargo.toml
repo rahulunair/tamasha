@@ -16,4 +16,4 @@ categories = ["command-line-utilities"]
 [dependencies]
 anyhow = "1.0.38"
 clap = "3.0.0-beta.2"
-reqwest = {verison = "0.11.0", features = ["blocking"] }
+reqwest = { verison = "0.11.0", features = ["blocking"], version = "0.11.0" }
