@@ -16,9 +16,11 @@ fn main() {
             String::from(cli.category),
             String::from(cli.format),
         );
-        let joke = client_data.get_joke().unwrap();
-        println!("\n{}", joke.text);
+        match client_data.get_joke() {
+            Ok(joke) => println!("{}", joke.text),
+            Err(err) => println!("{:?}", err)
+        };
     } else {
-        println!("\nuse `tamasha --fetch` to fetch a joke");
+        println!("use `tamasha --fetch` to fetch a joke");
     }
 }
